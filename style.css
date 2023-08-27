@@ -1,0 +1,161 @@
+/* Custom Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FEE12B;
+}
+
+h2 {
+  display: block;
+  color: #333;
+}
+
+.title {
+  color: blue;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: green;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: red;
+  color: white;
+}
+.container {
+  margin-top: 20px;
+}
+
+.card-title.custom-heading {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-title.custom-heading img {
+  margin-right: 10px;
+}
+
+section.py-5 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+  background-color: yellow;
+}
+
+.table {
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+}
+
+table.table-bordered th,
+table.table-bordered td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table.table-bordered th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  padding: 8px;
+}
+
+.d-flex.justify-content-between {
+  margin-top: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+/* Footer Styles */
+
+footer.py-5 {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 576px) {
+  .container {
+    margin-top: 10px;
+  }
+  
+  .card-title.custom-heading {
+    font-size: 20px;
+  }
+  
+  table.table-bordered th,
+  table.table-bordered td {
+    padding: 6px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"],
+  textarea.form-control {
+    padding: 6px;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 6px 12px;
+  }
+}
